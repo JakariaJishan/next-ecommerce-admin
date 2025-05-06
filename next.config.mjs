@@ -14,7 +14,7 @@ const nextConfig = {
         ];
     },
     images: {
-        domains: ['143.198.216.136','localhost','drum-curious-randomly.ngrok-free.app'], // Add localhost for next/image support
+        domains: ['143.198.216.136','localhost','drum-curious-randomly.ngrok-free.app', 'jakaria-next-ecommerce-api-bpmock-b1056b-185-104-183-137.traefik.me'], // Add localhost for next/image support
         remotePatterns: [
             {
                 protocol: 'http',
@@ -31,6 +31,11 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'drum-curious-randomly.ngrok-free.app',
+                pathname: '/**',
+            },
+            {
+                protocol: 'http', 
+                hostname: 'jakaria-next-ecommerce-api-bpmock-b1056b-185-104-183-137.traefik.me',
                 pathname: '/**',
             }
         ],

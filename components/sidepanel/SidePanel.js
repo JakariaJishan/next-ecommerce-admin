@@ -54,12 +54,12 @@ export default function SidePanel({ children }) {
       <div>
         <div className="flex justify-center bg-[#14121F] mb-1">
           <Image
-            src="/logo/brand-logo.png"
+            src="/logo/logo1.png"
             alt="Logo"
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-24 object-cover"
+            className="w-full h-24 p-4 object-cover"
             priority={true}
           />
         </div>
