@@ -34,7 +34,7 @@ const nextConfig = {
                 pathname: '/**',
             },
             {
-                protocol: 'http', 
+                protocol: 'https', 
                 hostname: 'jakaria-next-ecommerce-api-bpmock-b1056b-185-104-183-137.traefik.me',
                 pathname: '/**',
             }
