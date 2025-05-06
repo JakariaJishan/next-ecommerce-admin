@@ -23,6 +23,11 @@ export function LoginForm({ className, email, password, setEmail, setPassword, o
             <CardTitle className="text-2xl text-center">Sign In</CardTitle>
             <CardDescription className="text-center">
               Enter your email below to login to your account
+
+              <div className="border-2">
+                email: jakaria@gmail.com
+                password: 111111
+              </div>
             </CardDescription>
           </CardHeader>
           <CardContent>
